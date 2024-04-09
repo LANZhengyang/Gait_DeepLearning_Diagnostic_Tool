@@ -20,7 +20,7 @@ pip install -r requirements.txt
 
 ## How to use it
 
-A demo can be found in the notebook [Demo.ipynb](https://github.com/LANZhengyang/Gait_DeepLearning_Diagnostic_Tool/blob/main/Training_with_lrR_ET-TDvsCP.ipynb). 
+A demo can be found in the notebook [Demo.ipynb](https://github.com/LANZhengyang/Gait_DeepLearning_Diagnostic_Tool/blob/main/Demo.ipynb). 
 To train a different model, you can modify the Net_name (options: ResNet, LSTM, InceptionTime).
 You can replace the input dataset to your own datasets too. To read different datasets, you can change the dir_dataset in the load_dataset_v1 function to specify the database location and the d_file_list to specify the dataset file for each class. 
 
